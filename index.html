@@ -8,112 +8,140 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="style.css">
-    <title>Your Landing Page</title>
+    <link rel="icon" href="assets/NEXAZ. COM.png">
+    <title>Nexaz.com~Lets Check it once</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body class="light-mode">
 
-    <div id="main">
-        <div id="cursor">
+    <!-- <div id="main"> -->
+    <!-- <div id="cursor">
             <h2>Nexaz</h2>
-        </div>
-        <header>
-            <div class="point">
-                
-                
-                <img src="assets/india.webp">
-                <img src="assets/tree.png">
-                <img src="assets/code3.avif">
-                <img src="assets/code1.avif">
-                <i>
-                    <h1>NEXAZ.COM</h1>
-                </i>
-            </div>
+        </div> -->
 
-        </header>
+    <div class="head">
+        <div class="nex">
+            <img src="assets/NEXAZ. COM.png">
+            <i>
+                <h1>Nexaz.com</h1>
+            </i>
+
+        </div>
+        <div class="gill">
+            <div class="containers">
+                <img src="assets/dark.png" id="toggleBtn" title="Switch to dark mode">
+            </div>
+            <a href="#signup"><button id="login" onclick="window.location.href='#signup'" title="login">login <i
+                        class="fa-solid fa-right-to-bracket"></i></button> </a>
+            <a href="public/register.html"><button id="login" title="register">register <i
+                        class="fa-solid fa-registered"></i></button> </a>
+        </div>
+
+    </div>
+    <header>
+        <div class="point">
+            <img src="assets/Cera & Rye.png">
+            <img src="assets/Cera & Rye (1).png">
+            <img src="assets/WHY NEXAZ.png">
+            <img src="assets/WHY NEXAZ (1).png">
+            <img src="assets/india.webp">
+
+            <!-- <i>
+                    <h1>NEXAZ.COM</h1>
+                </i>     -->
+        </div>
+        <!-- <div class="video"> <video src="assets/Untitled video - Made with Clipchamp (2).mp4" autoplay muted loop></video></div> -->
+    </header>
     </div>
 
 
 
     <section class="features">
         <div class="container">
-            <strong>Code is like humor.when you have to explain it,it's bad ~ Cory House</strong>
-            <button type="button" class="btn">Nexaz.com</button>
-
+            <div class="hlo">
+                <h1>Code is like <span>humor.</span> when you have to  <span>explain</span> it, it's bad ~ <span> Cory House.</span></h1>
+                <h1>Code is like <span>humor.</span> when you have to  <span>explain</span> it, it's bad ~ <span> Cory House.</span></h1>
+            </div>
+            <button type="button" class="btn" title="visit Nexaz"> <a href="nexaz.html">Nexaz.com</a></button>
 
 
             <div class="feature">
-                <h1>Free courses available</h1>
+                <h1>Advanced Programming Course.</h1>
                 <div class="course">
                     <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <img src="assets/images.jfif">
-                        <p1 class="java">Full Java foundation course </p1> <br>
-                        <p1 class="java1">7 weeks(Starts:09-01-2024)</p1> <br>
-                        <p1 class="enrol">Enrollment Ends:14Feb,2024</p1> <br>
-                        <p1 class="enrol">Exam Date:12Arp,2024</p1>
-                        <button type="submit"> <a href="notes.html">Enroll for free</a></button>
+                        <p1>Full Java foundation course </p1> <br>
+                        <p1>7 weeks(Starts:09-01-2024)</p1> <br>
+                        <p1>Enrollment Ends:14Feb,2024</p1> <br>
+                        <p1>Exam Date:12Arp,2024</p1><br><br>
+                        <button type="submit" id="gnt" title="enroll"> <a href="notes.html">Enroll Now
+                            </a></button>
                     </div>
                     <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <img src="assets/debian.png">
-                        <p1 class="java">Linux Debian course </p1> <br>
-                        <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                        <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                        <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                        <button type="submit"> <a href="debian.html">Enroll for free</a></button>
+                        <p1>Linux Debian course </p1> <br>
+                        <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                        <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                        <p1>Exam Date:19Arp,2024</p1><br><br>
+                        <button type="submit" id="gnt" title="enroll"> <a href="debian.html">Enroll Now</a></button>
                     </div>
                     <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <img src="assets/Machine-Learning-1.webp">
-                        <p1 class="java">Full machine learing course </p1> <br>
-                        <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                        <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                        <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                        <button type="submit"> <a href="machine.html">Enroll for free</a></button>
+                        <p1>Full machine learing course </p1> <br>
+                        <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                        <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                        <p1>Exam Date:19Arp,2024</p1><br><br>
+                        <button type="submit" id="gnt" title="enroll"> <a href="machine.html">Enroll Now </a></button>
                     </div>
                     <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <img src="assets/dsa.png">
-                        <p1 class="java">Full Data Structure using C/C++ course </p1> <br>
-                        <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                        <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                        <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                        <button type="submit"><a href="san.html">Enroll for free</a></button>
+                        <p1>Full Data Structure using C/C++ course </p1> <br>
+                        <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                        <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                        <p1>Exam Date:19Arp,2024</p1><br><br>
+                        <button type="submit" id="gnt" title="enroll"><a href="san.html">Enroll
+                                Now</a></button>
                     </div>
                 </div>
             </div><BR>
             <br>
             <div class="feature">
-                <h1>Paid courses available.</h1>
+                <h1>Software Related Course.</h1>
                 <div class="course">
                     <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <img src="assets/kotlin.jfif">
                         <p1> Internsive of kotlin course </p1> <br>
                         <p1>4 weeks(Starts:09-01-2024)</p1> <br>
                         <p1>Enrollment Ends:16 Feb,2024</p1> <br>
-                        <p1>Exam Date:19Arp,2024</p1>
-                        <button type="submit">Enroll Now</button>
+                        <p1>Exam Date:19Arp,2024</p1><br><br>
+                        <button type="submit" id="gnt" title="enroll">Enroll Now</button>
                     </div>
                     <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <img src="assets/kernel.jfif">
-                        <p1 class="java">Full linux kernel course </p1> <br>
-                        <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                        <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                        <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                        <button type="submit">Enroll Now</button>
+                        <p1>Full linux kernel course </p1> <br>
+                        <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                        <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                        <p1>Exam Date:19Arp,2024</p1><br><br>
+                        <button type="submit" id="gnt" title="enroll">Enroll Now</button>
                     </div>
                     <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <img src="./assets/debian.png">
-                        <p1 class="java">Full Debian course </p1> <br>
-                        <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                        <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                        <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                        <button type="submit">Enroll Now</button>
+                        <p1>Full Debian course </p1> <br>
+                        <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                        <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                        <p1>Exam Date:19Arp,2024</p1><br><br>
+                        <button type="submit" id="gnt" title="enroll">Enroll Now</button>
                     </div>
                     <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <img src="assets/natural.jfif">
-                        <p1 class="java">Comprehensive Natural language course </p1> <br>
-                        <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                        <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                        <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                        <button type="submit">Enroll Now</button>
+                        <p1>Comprehensive Natural language course </p1> <br>
+                        <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                        <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                        <p1>Exam Date:19Arp,2024</p1><br><br>
+                        <button type="submit" id="gnt" title="enroll">Enroll Now</button>
                     </div>
                 </div>
             </div>
@@ -131,16 +159,36 @@
         }
 
         .rotating-element {
-            animation: rotate 4s linear infinite;
+            animation: rotate 5s linear infinite;
             text-align: center;
-            height: 12rem;
-            border-radius: 20%;
+            height: 10rem;
+            object-fit: cover;
+            margin-top: 1vw;
+            border-radius: 50%;
             background-image: url('https://images.unsplash.com/photo-1522441815192-d9f04eb0615c?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-            width: 12rem;
+            width: 10rem;
         }
 
-        .rotating-element p {
-            margin-top: 50%;
+        .rotating-element video {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .contain>a {
+            text-decoration: none;
+        }
+
+        .rotating-element>video>p {
+            position: fixed;
+        }
+
+        .help {
+            margin-left: 3vw;
+            color: salmon;
+            font-size: small;
+            margin-top: 3vw;
         }
     </style>
 
@@ -150,24 +198,26 @@
             <!-- <h2>Join Us Today!</h2>
             <p>Sign up now to experience the benefits.</p>
 
-            <butto.n onclick="window.location.href='#signup'" class="sign">Sign Up</button> -->
+            <button onclick="window.location.href='#signup'" class="sign">Sign Up</button> -->
 
-
-            <a href="notes.html">
+            <a href="https://copilot.microsoft.com/">
                 <div class="rotating-element">
-                    <p>Give Feedback😊</p>
+                    <video src="assets/2.mp4" autoplay muted loop></video>
                 </div>
+                <p4 class="help"> Need Help🙋‍♂️</p4>
             </a>
 
-            <a href="insiderNote.html">
+            <a href="#">
                 <div class="rotating-element">
-                    <p>Give Feedback😊</p>
+                    <video src="assets/3d Smileys Animations - Stock Video.mp4" autoplay muted loop></video>
                 </div>
+                <p4 class="help">Give Feedback❤️</p4>
             </a>
-            <a href="insiderNote.html">
+            <a href="#">
                 <div class="rotating-element">
-                    <p>Give Feedback😊</p>
+                    <video src="assets/NEXAZ.mp4" autoplay muted loop></video>
                 </div>
+                <p4 class="help">About us🙌</p>
             </a>
     </section>
 
@@ -177,59 +227,59 @@
         <div class="course">
             <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <img src="assets/images.jfif">
-                <p1 class="java">Full Java course </p1> <br>
-                <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                <button type="submit">Enroll Now</button>
+                <p1>Full Java course </p1> <br>
+                <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                <p1>Exam Date:19Arp,2024</p1><br><br>
+                <button type="submit" id="gnt" title="enroll">Enroll Now</button>
             </div>
             <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <img src="assets/ruby.png">
-                <p1 class="java">Basics of ruby </p1> <br>
-                <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                <button type="submit">Enroll Now</button>
+                <p1>Basics of ruby </p1> <br>
+                <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                <p1>Exam Date:19Arp,2024</p1><br><br>
+                <button type="submit" id="gnt" title="enroll">Enroll Now</button>
             </div>
             <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <img src="assets/ho.png">
-                <p1 class="java">Full Go course </p1> <br>
-                <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                <button type="submit">Enroll Now</button>
+                <p1>Full Go course </p1> <br>
+                <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                <p1>Exam Date:19Arp,2024</p1><br><br>
+                <button type="submit" id="gnt" title="enroll">Enroll Now</button>
             </div>
             <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <img src="assets/python.webp">
-                <p1 class="java">Full Python course </p1> <br>
-                <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                <button type="submit">Enroll Now</button>
+                <p1>Full Python course </p1> <br>
+                <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                <p1>Exam Date:19Arp,2024</p1><br><br>
+                <button type="submit" id="gnt" title="enroll">Enroll Now</button>
             </div>
             <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <img src="assets/swift.png">
-                <p1 class="java">Full swift course </p1> <br>
-                <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                <button type="submit">Enroll Now</button>
+                <p1>Full swift course </p1> <br>
+                <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                <p1>Exam Date:19Arp,2024</p1><br><br>
+                <button type="submit" id="gnt" title="enroll">Enroll Now</button>
             </div>
             <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <img src="assets/javascript.png">
-                <p1 class="java">Full javascript course </p1> <br>
-                <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                <button type="submit">Enroll Now</button>
+                <p1>Full javascript course </p1> <br>
+                <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                <p1>Exam Date:19Arp,2024</p1><br><br>
+                <button type="submit" id="gnt" title="enroll">Enroll Now</button>
             </div>
             <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <img src="assets/C++.png">
-                <p1 class="java">Full C++ course </p1> <br>
-                <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                <button type="submit">Enroll Now</button>
+                <p1>Full C++ course </p1> <br>
+                <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                <p1>Exam Date:19Arp,2024</p1><br><br>
+                <button type="submit" id="gnt" title="enroll">Enroll Now</button>
             </div>
         </div>
         <br>
@@ -239,51 +289,51 @@
             <div class="course">
                 <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img src="assets/prolog.jfif">
-                    <p1 class="java">Full Prolog course </p1> <br>
-                    <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                    <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                    <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                    <button type="submit">Enroll Now</button>
+                    <p1>Full Prolog course </p1> <br>
+                    <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                    <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                    <p1>Exam Date:19Arp,2024</p1><br><br>
+                    <button type="submit" id="gnt" title="enroll">Enroll Now</button>
                 </div>
                 <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img src="assets/R.png">
-                    <p1 class="java">Full R language course </p1> <br>
-                    <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                    <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                    <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                    <button type="submit">Enroll Now</button>
+                    <p1>Full R language course </p1> <br>
+                    <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                    <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                    <p1>Exam Date:19Arp,2024</p1><br><br>
+                    <button type="submit" id="gnt" title="enroll">Enroll Now</button>
                 </div>
                 <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img src="assets/natural.jfif">
-                    <p1 class="java">Full natural language course </p1> <br>
-                    <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                    <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                    <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                    <button type="submit">Enroll Now</button>
+                    <p1>Full natural language course </p1> <br>
+                    <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                    <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                    <p1>Exam Date:19Arp,2024</p1><br><br>
+                    <button type="submit" id="gnt" title="enroll">Enroll Now</button>
                 </div>
                 <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img src="assets/lisp.jpg">
-                    <p1 class="java">Comprehensive lisp course </p1> <br>
-                    <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                    <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                    <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                    <button type="submit">Enroll Now</button>
+                    <p1>Comprehensive lisp course </p1> <br>
+                    <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                    <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                    <p1>Exam Date:19Arp,2024</p1><br><br>
+                    <button type="submit" id="gnt" title="enroll">Enroll Now</button>
                 </div>
                 <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img src="assets/python.webp">
-                    <p1 class="java">Full Python course </p1> <br>
-                    <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                    <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                    <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                    <button type="submit">Enroll Now</button>
+                    <p1>Full Python course </p1> <br>
+                    <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                    <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                    <p1>Exam Date:19Arp,2024</p1><br><br>
+                    <button type="submit" id="gnt" title="enroll">Enroll Now</button>
                 </div>
                 <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img src="assets/swift.png">
-                    <p1 class="java">Full swfit course </p1> <br>
-                    <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                    <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                    <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                    <button type="submit">Enroll Now</button>
+                    <p1>Full swfit course </p1> <br>
+                    <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                    <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                    <p1>Exam Date:19Arp,2024</p1><br><br>
+                    <button type="submit" id="gnt" title="enroll">Enroll Now</button>
                 </div>
             </div><BR>
             <div class="feature">
@@ -291,67 +341,67 @@
                 <div class="course">
                     <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <img src="assets/html.png">
-                        <p1 class="java">Full HTML course </p1> <br>
-                        <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                        <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                        <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                        <button type="submit">Enroll Now</button>
+                        <p1>Full HTML course </p1> <br>
+                        <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                        <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                        <p1>Exam Date:19Arp,2024</p1><br><br>
+                        <button type="submit" id="gnt" title="enroll">Enroll Now</button>
                     </div>
                     <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <img src="assets/css.png">
-                        <p1 class="java">Full css course </p1> <br>
-                        <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                        <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                        <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                        <button type="submit">Enroll Now</button>
+                        <p1>Full css course </p1> <br>
+                        <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                        <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                        <p1>Exam Date:19Arp,2024</p1><br><br>
+                        <button type="submit" id="gnt" title="enroll">Enroll Now</button>
                     </div>
                     <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <img src="assets/javascript.png">
-                        <p1 class="java">Full javascript course </p1> <br>
-                        <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                        <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                        <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                        <button type="submit">Enroll Now</button>
+                        <p1>Full javascript course </p1> <br>
+                        <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                        <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                        <p1>Exam Date:19Arp,2024</p1><br><br>
+                        <button type="submit" id="gnt" title="enroll">Enroll Now</button>
                     </div>
                     <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <img src="assets/node.png">
-                        <p1 class="java">Brief node.js course </p1> <br>
-                        <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                        <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                        <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                        <button type="submit">Enroll Now</button>
+                        <p1>Brief node.js course </p1> <br>
+                        <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                        <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                        <p1>Exam Date:19Arp,2024</p1><br><br>
+                        <button type="submit" id="gnt" title="enroll">Enroll Now</button>
                     </div>
                     <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <img src="assets/express.png">
-                        <p1 class="java">Full express.js course </p1> <br>
-                        <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                        <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                        <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                        <button type="submit">Enroll Now</button>
+                        <p1>Full express.js course </p1> <br>
+                        <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                        <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                        <p1>Exam Date:19Arp,2024</p1><br><br>
+                        <button type="submit" id="gnt" title="enroll">Enroll Now</button>
                     </div>
                     <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <img src="assets/react.png">
-                        <p1 class="java">Full react course </p1> <br>
-                        <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                        <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                        <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                        <button type="submit">Enroll Now</button>
+                        <p1>Full react course </p1> <br>
+                        <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                        <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                        <p1>Exam Date:19Arp,2024</p1><br><br>
+                        <button type="submit" id="gnt" title="enroll">Enroll Now</button>
                     </div>
                     <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <img src="assets/sql.png">
-                        <p1 class="java">Full sql course </p1> <br>
-                        <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                        <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                        <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                        <button type="submit">Enroll Now</button>
+                        <p1>Full sql course </p1> <br>
+                        <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                        <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                        <p1>Exam Date:19Arp,2024</p1><br><br>
+                        <button type="submit" id="gnt" title="enroll">Enroll Now</button>
                     </div>
                     <div class="img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                         <img src="assets/mongosee.jfif">
-                        <p1 class="java">Full mongoose course </p1> <br>
-                        <p1 class="java1">4 weeks(Starts:09-01-2024)</p1> <br>
-                        <p1 class="enrol">Enrollment Ends:16 Feb,2024</p1> <br>
-                        <p1 class="enrol">Exam Date:19Arp,2024</p1>
-                        <button type="submit">Enroll Now</button>
+                        <p1>Full mongoose course </p1> <br>
+                        <p1>4 weeks(Starts:09-01-2024)</p1> <br>
+                        <p1>Enrollment Ends:16 Feb,2024</p1> <br>
+                        <p1>Exam Date:19Arp,2024</p1><br><br>
+                        <button type="submit" id="gnt" title="enroll">Enroll Now</button>
                     </div>
 
                 </div><BR>
@@ -362,12 +412,12 @@
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img
-                                src="https://images.unsplash.com/photo-1674027444485-cec3da58eef4?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                             
+                                 
                         </div>
                         <div class="swiper-slide">
                             <img
-                                src="https://images.unsplash.com/photo-1534723328310-e82dad3ee43f?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                                src="https://images.unsplash.com/photo-1674027444485-cec3da58eef4?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
                         </div>
                         <div class="swiper-slide">
                             <img
@@ -399,7 +449,7 @@
                             <label for="password">Password:</label>
                             <input type="password" id="password" name="password" required>
 
-                            <button type="submit">Sign Up</button>
+                            <button type="submit" class="gtn" title="login">login</button>
                         </form>
                     </div>
                 </section>
@@ -411,20 +461,30 @@
                             Feel free to contact me for any collaboration or if you have any questions.
                         </p1>
                         <div class="contact">
-                            <ul>
-                                <li><b>Email:</b><i>abhaytomar750591@gmail.com</i></li><br>
-                                <li><b>Linkedin:<a href="https://www.linkedin.com/in/abhay-tomar123/">click here</a></b>
-                                </li><br>
-                                <li><b>Discord:<a href="https://discord.com/channels/@me">click here</a><b></li><br>
-                            </ul>
-                            <ul>
-                                <li><b>Skype:<a href="https://join.skype.com/invite/v9y4Vynuh7Xe">click here</a></b>
-                                </li><br>
-                                <li><b>Instagram:<a href="https://www.instagram.com/abhaytomar_____/">click here</a></b>
-                                </li><br>
-                                <li><B>whatapp no:<a href="https://call.whatsapp.com/video/87MrcW78qW6A3PrkbBJMmI">click
-                                            here</a></B></li><br>
-                            </ul>
+                            <div>
+                                <ul>
+                                    <li><b>Email:</b><i>abhaytomar750591@gmail.com</i></li><br>
+                                    <li><b>Linkedin:<a href="https://www.linkedin.com/in/abhay-tomar123/">click
+                                                here</a></b>
+                                    </li><br>
+                                    <li><b>Discord:<a href="https://discord.com/channels/@me">click here</a><b></li><br>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li><b>Skype:<a href="https://join.skype.com/invite/v9y4Vynuh7Xe">click
+                                                here</a></b>
+                                    </li><br>
+                                    <li><b>Instagram:<a href="https://www.instagram.com/abhaytomar_____/">click
+                                                here</a></b>
+                                    </li><br>
+                                    <li><B>whatapp no:<a
+                                                href="https://call.whatsapp.com/video/87MrcW78qW6A3PrkbBJMmI">click
+                                                here</a></B></li><br>
+                                </ul>
+                            </div>
+
+
                         </div>
                     </section>
                 </footer>
@@ -443,7 +503,9 @@
                     AOS.init();
                 </script>
                 <!-- <canvas id="myCanvas" width="20rem" height="20rem" style="border:1px solid blueviolet"></canvas> -->
+                <script src="script1.js"></script>
                 <script src="script.js"></script>
+
 
 </body>
 

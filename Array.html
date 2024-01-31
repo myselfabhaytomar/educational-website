@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/NEXAZ. COM.png">
+    <title>Array and Linear Data Structures in C</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        main {
+            width: 95%;
+            margin-bottom: 2vw;
+            margin-top: 6vw;
+        }
+
+        h1,
+
+        h3 {
+            color: #8a20bf;
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 3vw;
+        }
+
+        pre {
+            background-color: #f8f8f8;
+            padding: 10px;
+            border: 1px solid #ddd;
+            overflow-x: auto;
+        }
+
+        code {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: square;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        .last2 {
+
+            height: 9vh;
+            width: 10vw;
+            border: none;
+            text-decoration: none;
+            margin-left: 70vw;
+            /* margin-bottom: 2vw; */
+            border-radius: 13rem;
+            background-color: rgba(0, 128, 0, 0.886);
+            color: white;
+        }
+
+        .last2:hover {
+            background-color: rgba(0, 128, 0, 0.557);
+        }
+
+        .last1 {
+            background-color: rgba(0, 128, 0, 0.886);
+            height: 9vh;
+            width: 10vw;
+            border-radius: 13rem;
+            color: white;
+            margin-left: 2vw;
+            /* margin-top: 3vw; */
+            border: none;
+            text-decoration: none;
+
+        }
+
+        .last1:hover {
+            background-color: rgba(0, 128, 0, 0.674);
+        }
+
+        .spt {
+            margin-top: 5vw;
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
+    <nav class="navbar navbar bg-secondary fixed-top" data-bs-theme="">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#">Nexaz.com</a>
+            <a class="navbar-brand" href="index.html">HOME</a>
+            <a class="navbar-brand" href="san.html">Data Structure Tutorial </a>
+            <a class="navbar-brand " href="#"> Internship</a>
+            <a class="navbar-brand" href="#">About us</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Data Structure Tutorial</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="enviro.html">Data Structures
+                                Environment Setup</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Array.html">Array Data Structure</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <h1>Array and Linear Data Structures in C</h1>
+
+        <h2>Array Overview</h2>
+        <p>Arrays is the linear type of data structures in C that store elements in contiguous memory locations. They
+            allow random access using indices and store homogeneous elements.</p>
+
+        <h3>Syntax</h3>
+        <pre>
+      <code>
+        // Array declaration
+        Datatype varname[size];
+  
+        // Declaration and initialization
+        Datatype varname[] = {ele1, ele2, ele3, ele4};
+      </code>
+    </pre>
+
+        <h3>Advantages</h3>
+        <ul>
+            <li>Random access</li>
+            <li>Easy sorting and iteration</li>
+            <li>Replacement of multiple variables</li>
+        </ul>
+
+        <h3>Disadvantages</h3>
+        <ul>
+            <li>Size is fixed</li>
+            <li>Difficult to insert and delete</li>
+            <li>Wasted space if capacity is more than occupancy</li>
+            <li>Needs contiguous memory allocation</li>
+        </ul>
+
+        <h3>Applications</h3>
+        <ul>
+            <li>Storing information in a linear fashion</li>
+            <li>Suitable for applications that require frequent searching</li>
+        </ul>
+
+        <h2>Array Examples</h2>
+
+        <h3>Example 1</h3>
+        <pre>
+      <code>
+        #include &lt;stdio.h&gt;
+  
+        int main() {
+          // Array declaration
+          int rollNo[10];
+  
+          // Taking inputs
+          for(int i=0; i<10; i++)
+            scanf("%d", &rollNo[i]);
+  
+          // Printing
+          for(int i=0; i<10; i++)
+            printf("%d ", rollNo[i]);
+  
+          return 0;
+        }
+      </code>
+    </pre>
+
+        <p><strong>Input:</strong> 12 13 34 56 12 87 56 78 23 10</p>
+        <p><strong>Output:</strong> 12 13 34 56 12 87 56 78 23 10</p>
+
+        <h3>Example 2</h3>
+        <pre>
+      <code>
+        #include &lt;stdio.h&gt;
+  
+        int main() {
+          int marks[20], i, n, sum = 0, avg;
+  
+          printf("Enter the number of elements: ");
+          scanf("%d", &n);
+  
+          for(i=0; i < n; ++i) {
+            printf("Enter number%d: ", i+1);
+            scanf("%d", &marks[i]);
+            sum += marks[i];
+          }
+  
+          avg = sum / n;
+          printf("Avg = %d", avg);
+          return 0;
+        }
+      </code>
+    </pre>
+
+        <p><strong>Input and Output:</strong> (User input required during execution)</p>
+
+        <div class="spt">
+            <div><a href="enviro.html"><button type="submit" class="last1"> &#x2190; Privious Page</button></a> </div>
+            <div><a href=""><button type="submit" class="last2">Next Page &#x2192;</button></a></div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
